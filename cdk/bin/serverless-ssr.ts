@@ -4,7 +4,7 @@ import * as cdk from "aws-cdk-lib";
 import { ServerlessSsrStack } from "../lib/serverless-ssr-stack";
 
 const app = new cdk.App();
-new ServerlessSsrStack(app, "ServerlessSsrStack", {
+new ServerlessSsrStack(app, "LifeHackFront", {
   env: {
     region: "us-east-1",
   },
